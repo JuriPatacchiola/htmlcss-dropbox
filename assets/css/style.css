@@ -284,3 +284,32 @@ h3 {
 .card h3{
     margin-bottom: 40px;
 }
+
+
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    width: 65.8%;
+    margin: 0 auto;
+}
+
+.title-botton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title-botton .btn{
+    width: 200px;
+}
+
+.card-body .testo-in-grassetto{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.card-body p{
+    width: 520px;
+}
