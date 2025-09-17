@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .container-flex-nav-link-and-logo{
@@ -150,6 +151,7 @@ margin-left: 140px;
   justify-content: center; 
   max-width: 1000px;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 
@@ -163,7 +165,7 @@ margin-left: 140px;
 .card-header {
   padding: 10px 15px;
   font-size: 14px;
-  color: #444;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -172,19 +174,24 @@ margin-left: 140px;
 }
 
 .card-body {
-  padding: 20px;
+  padding: 40px;
   flex-grow: 1;
   border: 1px solid #ddd; 
 }
 
 .card-body h2 {
+    margin-top: 20px;
   margin: 0 0 10px;
 }
 
 .price {
+    margin-top: 40px;
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+}
+.price p{
+    margin-bottom: 12px;
 }
 
 .period {
@@ -198,6 +205,8 @@ margin-left: 140px;
   list-style: none;
   padding: 0;
   margin: 15px 0;
+  margin-bottom: 40px;
+  height: 140px;
 }
 
 .features li,
@@ -216,11 +225,11 @@ margin-left: 140px;
   background: #0061ff;
   color: #fff;
   border: none;
-  border-radius: 6px;
   padding: 12px;
   cursor: pointer;
   font-size: 14px;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .btn:hover {
@@ -236,10 +245,6 @@ margin-left: 140px;
   text-align: center;
 }
 
-.link:hover {
-  text-decoration: underline;
-}
-
 hr {
   border: none;
   border-top: 1px solid #ddd;
@@ -252,6 +257,30 @@ h3 {
   margin-bottom: 10px;
 }
 
+.display-flex-li{
+    display: flex;
+    align-items: flex-start;
+}
 .highlights i{
+
     color: #0061ff
+}
+
+.features .display-flex-li{
+    display: flex;
+    align-items: flex-start;
+}
+
+.black{
+    color: black;
+}
+
+.display-flex-tex-aline-right{
+    display: flex;
+    justify-content: left;
+}
+
+
+.card h3{
+    margin-bottom: 40px;
 }
