@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+}
+
+.container-flex-nav-link-and-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding: 20px;
+    background-color: white;
+}
+.right-element{
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+.right-element nav a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.left-element{
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.left-element nav .normal-link{
+ text-decoration: none;
+ padding-left: 20px;
+ padding-right: 12px;
+ color: black;
+}
+
+.left-element nav .button1{
+    background-color: #0061FE;
+    text-decoration: none;
+    padding: 8px 10px;
+    color: white;
+}
+
+.left-element nav .button0{
+
+    text-decoration: none;
+    padding: 8px 10px;
+    color: black;
+
+}
+.container-title-text-button-img-and-icon{
+    background-color: #B4D0E6;
+}
+
+.container-title-text-button-img-and-icon h1{
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    width: 700px;
+}
+
+.container-title-text-button-img-and-icon{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding-top:  40px;
+    padding-left: 300px;
+}
+
+.container-title-text-button-img-and-icon p{
+    width: 279px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+.container-title-text-button-img-and-icon .button1{
+    background-color: #0061FE;
+    width: 180px;
+    text-decoration: none;
+    padding: 8px 10px;
+    color: white;
+    margin-bottom: 80px;
+}
+
+.container-title-text-button-img-and-icon i{
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.img-posiction{
+    position: absolute;
+}
+
+.img-posiction img{
+    position: absolute;
+    width: 800px;
+    left: 280px;
+    top: 100px;
+}
+
+
+.separate{
+    margin-top: 140px;
+}
+.container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.container-h2-and-text{
+margin-top: 40px;
+margin-left: 140px;
+
+}
+
