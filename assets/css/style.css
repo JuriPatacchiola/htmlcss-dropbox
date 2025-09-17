@@ -114,3 +114,30 @@ margin-left: 140px;
 
 }
 
+
+.pointer-row{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+
+.pointer-select,
+.pointer-unselect {
+  display: inline-block; 
+  width: 15px;
+  height: 15px;
+  border-radius: 50%; 
+  margin-right: 8px; 
+  vertical-align: middle; 
+}
+
+
+.pointer-select {
+    border: 2px solid #007bff; 
+}
+
+
+.pointer-unselect {
+  border: 2px solid #6c757d; 
+}
