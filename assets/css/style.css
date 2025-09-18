@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 .container-flex-nav-link-and-logo{
@@ -378,3 +378,84 @@ h2{
 .card-body2 h3{
     font-size: 34px;
 }
+
+.linnk-and-strong-text{
+    display: flex;
+    flex-direction: column;
+    width: 65.8%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.linnk-and-strong-text strong{
+    font-size: 40px;
+    width: 600px;
+    margin-bottom: 40px;
+}
+
+.linnk-and-strong-text a{
+    margin-bottom: 40px;
+}
+footer {
+  background-color: black; /* sfondo continuo su tutto il footer */
+}
+
+.row-nav-link-and-srong-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 260px;
+  padding-right: 260px;
+}
+
+.row-nav-link-and-srong-text strong {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.row-nav-link-and-srong-text a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.strong-nav-link {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100px;
+}
+
+.black {
+  display: flex;
+  justify-content: left;
+  margin-left: 260px; 
+  padding-bottom: 20px;
+}
+
+.black hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+  width: 40px; 
+}
+    
+
+.lenguage-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 240px; 
+    padding-bottom: 40px;
+}
+.lenguage-icon i{
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.lenguage-icon p{
+    color: white;
+}
+
+
