@@ -9,8 +9,10 @@
     justify-content: space-between;
     align-items: center;
     gap: 5px;
-    padding: 20px;
     background-color: white;
+}
+.right-element img{
+   margin: 20px;
 }
 .right-element{
      display: flex;
@@ -36,20 +38,51 @@
  color: black;
 }
 
+.right-element nav a,
+.left-element nav .normal-link {
+  text-decoration: none; 
+  transition: text-decoration-thickness 0.2s ease, text-underline-offset 0.2s ease,color 0.2s ease;
+}
+
+.right-element nav a:hover,
+.left-element nav .normal-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;  
+  text-underline-offset: 28px;      
+}
+
+
 .left-element nav .button1{
     background-color: #0061FE;
     text-decoration: none;
     padding: 8px 10px;
     color: white;
+    margin-right: 20px;
+    transition: background-color 0.3 ease, color 0.3s ease;
 }
 
-.left-element nav .button0{
+.left-element nav .button1:hover{
+   background-color: #004ACC; 
+  color: white; 
+}
 
+
+.left-element nav .button0{
     text-decoration: none;
     padding: 8px 10px;
     color: black;
+    background-color: white;
+    padding: 8px 10px;
+    transition: background-color 0.3 ease, color 0.3s ease;
 
 }
+
+.left-element nav .button0:hover{
+    background-color: #B4D0E6; 
+  color: black; 
+
+}
+
 .container-title-text-button-img-and-icon{
     background-color: #B4D0E6;
 }
@@ -77,11 +110,17 @@
 
 .container-title-text-button-img-and-icon .button1{
     background-color: #0061FE;
-    width: 180px;
+    width: 200px;
     text-decoration: none;
     padding: 8px 10px;
     color: white;
     margin-bottom: 80px;
+    transition: background-color 0.3 ease, color 0.3s ease;
+}
+
+.container-title-text-button-img-and-icon .button1:hover{
+    background-color: #004ACC; 
+  color: white; 
 }
 
 .container-title-text-button-img-and-icon i{
@@ -346,6 +385,12 @@ h3 {
 .container-text-and-button .btn2{
     background-color: white;
     padding: 12px;
+    transition: background-color 0.3 ease, color 0.3s ease;
+}
+
+.container-text-and-button .btn2:hover{
+background-color: #B4D0E6;
+color: black;
 }
 
 h2{
@@ -411,21 +456,34 @@ footer {
 .row-nav-link-and-srong-text strong {
   color: white;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .row-nav-link-and-srong-text a {
-  text-align: center;
+  display:block; 
+  text-align: left;
   text-decoration: none;
   color: white;
+  margin-bottom: 20px;
+  width: 200px;
+  transition: color 0.3s ease;
 }
 
+.row-nav-link-and-srong-text a:hover {
+  color: #B4D0E6;
+}
+
+
 .strong-nav-link {
+    
   display: flex;
   flex-direction: column;
   margin-top: 20px;
   margin-bottom: 20px;
   width: 100px;
+
 }
+
 
 .black {
   display: flex;
