@@ -196,10 +196,10 @@ margin-left: 140px;
 
 .container-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 20px; 
   justify-content: center; 
-  max-width: 1000px;
+  width: 80%;
   margin: 0 auto;
   margin-bottom: 20px;
 }
