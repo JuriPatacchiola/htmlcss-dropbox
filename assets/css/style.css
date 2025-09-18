@@ -323,6 +323,7 @@ h3 {
 
 .black{
     color: black;
+
 }
 
 .display-flex-tex-aline-right{
@@ -495,18 +496,11 @@ footer {
 
 }
 
-
-.black {
-  display: flex;
-  justify-content: left;
-  margin-left: 260px; 
-  padding-bottom: 20px;
-}
-
 .black hr {
   border: none;
   border-top: 1px solid #ddd;
   margin: 20px 0;
+  margin-left: 260px;
   width: 40px; 
 }
     
